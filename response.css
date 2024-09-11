@@ -1,0 +1,81 @@
+/* RESPONSE */
+.lists{
+    flex-shrink: 1;
+}
+.lists ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px 2px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* font-size: 0.6em; */
+    color: white;
+}
+.lists ul li a i {
+    display: none;
+}
+.logindrp , .signup {
+    margin: 0px;
+}
+
+.main{
+    height: 200px;
+    background-image: url(./images/foodbanner.png);
+    background-size: cover;
+}
+.registerButton{
+    font-size: 0.9em;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    position:relative;
+    top:120px;
+    left: 15px;
+ }
+
+.services2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    overflow: auto;
+    flex-wrap: nowrap;
+}
+@media (max-width:600px){
+    .services2{
+        align-items: flex-end;
+    }
+}
+.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+}
+.box{
+    margin: 1.5rem 0;
+}
+.foot-logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.95em;
+    font-weight: bold;
+    }
+    .contactUs p{
+        font-size: 0.8em;
+    }
+.foot{
+    margin: 0 10px;
+}
+.logindrp , .signup {
+    display: none;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="response.css">
+</head>
+<body id="body">
+    <div class="navbar">
+        <div class="logo"><img src="./images/logo.png" ></div>
+        <div class="lists">
+            <ul>
+                <li><a class="button" href="#">Home <i class="fa-solid fa-house"></i></a></li>
+                <li><a class="button" href="#coute">Services <i class="fa-solid fa-briefcase"></i></a></li>
+                <li><a class="button" href="#aboutUs">About Us <i class="fa-regular fa-address-card"></i></a></li>
+                <li><a class="button" href="#footer">Contact Us <i class="fa-solid fa-phone"></i></a></li>
+            </ul>
+        </div>
+        <div class="logindrp div_lgn"><button class=" button">Login</button></div>
+        <div class="signup div_lgn"><button class=" button">SignUp</button> </div>
+    </div>
+    <div class="main">
+    
+    <dialog id="dialog">
+        
+        <h1 id="form_heading">Your Information</h1>
+        <button id="cancelbutn">X</button>
+       <form id="formOut">
+         <label for="userName" id="label" class="user">Name</label>
+          <input type="text" id="userName" name="name" class="user input" placeholder="Enter your name">
+         <br><br>
+         <label for="age" id="label">Age</label>
+          <input type="number" id="age" class="input" name="age" placeholder="Enter your age">
+         <br><br>
+         <label id="visit-label">Have you visited our restaurant?</label>
+          <input id="visit" type="radio" name="visited" value="yes">
+        <label for="visit" class="visit-ans">Yes</label>
+          <input id="no-visit" type="radio" name="visited" value="no">
+          <label for="no-visit" class="visit-ans">No</label>
+        <br><br>
+
+        <caption>With whom have u visited or wish to visit our restaurant?</caption>
+        <br>
+         <input type="checkbox" name="accompany" value="friends" id="visitWithfriends">
+         <label for="visitWithfriends">Friends</label>
+          <input type="checkbox" name="accompany" value="family" id="visitWithfamily">
+         <label for="visitWithfamily">Family</label>
+        <br><br>
+
+        <caption>How much will u rate us?</caption>
+          <input type="range" min="0" max="5" id="range" name="rating" >
+        <br><br>
+         
+        <button id="sub-btn">Submit</button>
+
+       </form>
+    </dialog>
+
+</div>
+     
+      <div class="coute" id="coute"><h1>OUR SERVICES</h1>
+      <h2 class="coute1">What We Serve</h2>
+      <p class="coute2">product quality is our priority and always guarantees </p>
+      <p class="coute2">freshness and safety until it is in your hands</p>
+    </div>
+    <div class="services" id="services">
+        <div class="ser1 box">
+            <h3>FAST DELIVERY</h3>
+          <div class="bike"> <img src="./images/foodguy.avif" alt="img"></div>
+          <p class="p1">we ensure that delivery </p>
+          <p>is on time</p>
+        </div>
+        <div class="ser2 box"><h3>BEST QUALITY</h3>
+            <div class="burg"><img src="./images/quality.jpeg"></div>
+            <p class="p1">best quality in this town </p>
+          <p>at best price</p>
+        </div>
+        <div class="ser3 box"><h3>DINE IN</h3>
+            <div class="dine"><img src="./images/dinein.jpeg"> </div>
+            <p class="p1">we offer dine in experience </p>
+            <p>one of the best ambience</p>
+        </div>
+    </div>
+        <!-- SECTION 2 -->
+        <div class="backf">
+        <div class="section2">
+            <h1>OUR MENU</h1>
+            <big class="tagcon">we have a wide range of menu</big><br>
+            <big class="tagcon">including healthy diet</big>
+        </div>
+        <div class="services2">
+            <div class="square menu1"><img src="./images/salad.jpg"><h2>Healthy diet</h2> </div>
+            <div class="square menu2"><img src="./images/sushi.jpg"> <h2>cuisines</h2></div>
+            <div class="square menu3"><img src="./images/pasta.jpg"> <h2>Snacks</h2></div>
+            <div class="square menu4"><img src="./images/drink.jpg"> <h2>drinks</h2></div>
+            <!-- <div class="square menu5"><img src="./images/breakfast.jpg"><h2>Breakfast</h2> </div>
+            <div class="square menu6"><img src="./images/turkish.jpg"> <h2>Turkish</h2></div>
+            <div class="square menu7"><img src="./images/dessert.jpg"> <h2>Desserts</h2></div>
+            <div class="square menu8"><img src="./images/drink.jpg"> <h2>All -></h2></div> -->
+            <!-- <button class="menu">Complete Menu</button> -->
+        </div>
+        
+       <div class="aboutUs">
+        <h2   id="aboutUs">About Us :</h2>
+        <br>
+        <p>Welcome to LARANA Fast Food, your go-to destination for delicious, fresh meals delivered straight to your door or enjoyed in our cozy dining space. With a passion for quality ingredients and exceptional service, we offer a diverse menu that caters to all tastes and dietary preferences. Whether you crave comforting classics or adventurous new flavors, our talented chefs craft each dish with care and creativity. At LARANA Fast Food, we believe in providing an unforgettable dining experience, whether you're savoring a meal in our welcoming restaurant or enjoying the convenience of our online delivery service. Join us for a delightful culinary journey and let us bring the best of our kitchen to you. Bon appétit!</p>
+    </div> 
+    </div>
+   <div class="footer" id="footer">
+    <div class="foot-logo foot"><img src="./images/logo.png" ></div>
+    <div class="foot-cont foot">
+        <ul class="list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Customer Care</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Branding</a></li>
+            <li><a href="#">Branches</a></li>
+        </ul>
+    </div>
+    <div class="contactUs foot">
+        <h2>Contact Info</h2>
+        <br>
+        <p>Telephone :9090909090</p>
+        <p>Mail :abcd@gmail.com</p>
+        <p>Order :8080808080</p>
+        <p>For Job Application :7070707070</p>
+
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

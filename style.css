@@ -1,0 +1,346 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display SC", serif;
+   font-weight: 400;
+   font-style: normal;
+    
+}
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: rgba(1,1,1,1);
+    padding: 0;
+}
+/* NAVBAR ITEMS */
+.logo img{
+    width: 4vw;
+    border-radius: 50%;
+    margin: 5px;
+}
+.lists{
+    flex-grow: 1;
+    margin-left: 5px;
+}
+.lists ul{
+    list-style-type: none;
+    display: flex;
+}
+.lists ul li a{
+      text-decoration: none;
+      list-style-type: none;
+      padding: 10px 10px;
+      margin: 3px;
+      border: 1px solid black;
+      border-radius: 20px;
+      font-size: 1.2em;
+      color: white;
+      box-shadow: 3px 3px 6px rgb(255, 100, 10);
+     
+}
+.logindrp , .signup {
+    margin: 5px;
+}
+.logindrp button , .signup button{
+   border-radius: 20px;
+   padding: 8px;
+   background-color: #ffead7;
+}
+.button:hover{
+    background-color: rgb(255, 100, 10);
+    color: black;
+    transform: scale(1.02);
+}
+/* MAIN */
+.main{
+    height: 643px;
+    /* width: 100%; */
+    background-image: url(./images/foodbanner.png);
+    background-size: cover;
+    text-align: start;
+}
+
+.registerButton{
+   background-color: orange;
+   font-size: 1.2em;
+   border-radius: 20px;
+   color: black;
+   padding: 5px 10px;
+   position:absolute;
+   bottom: -18px;
+   left: 80px;
+   font-weight: bold;
+}
+.registerButton:hover{
+   background-color: rgba (255, 100, 10);
+}
+#dialog{
+   width: 400px;
+   /* height: 500px; */
+   position: absolute;
+   left: 580px;
+   top: 160px;
+   background-color: rgba(255, 100, 10,0.80);
+   border-radius: 10px;
+   border: 3px solid rgb(255, 180, 0);
+   text-align: center;
+}
+#form_heading{
+   display: inline;
+   font-size: xx-large;
+   font-weight: 700;
+   line-height: 2rem;
+   text-align: center;
+   position: relative;
+   top: 1rem;
+}
+#cancelbutn{
+   border-radius: 50%;
+   background-color: black;
+   color: rgb(255, 100, 10);
+   height: 20px;
+   width: 20px;
+   text-align: center;
+   position: relative;
+   top: 0.75rem;
+}
+#formOut{
+   padding: 20px 10px;
+   text-align: center;
+   margin-top: 0.5rem;
+}
+
+#label{
+   font-weight: 500;
+   font-size: large;
+}
+.input{
+   border-radius: 10px;
+   padding: 0.25rem;
+   background-color: black;
+   color: rgb(255, 100, 10);
+   font-size: larger;
+   font-weight: 500;
+   border: none;
+}
+.input::placeholder{
+   font-size: medium;
+   color: rgba(239, 237, 236, 0.481);
+}
+.user{
+   margin-top: 0.5rem;
+}
+.visit-ans{
+   font-weight: 700;
+}
+#sub-btn{
+   padding: 5px 10px;
+   border-radius: 20px;
+   background-color: black;
+   color: white;
+   margin-bottom: 1.2rem;
+}
+.coute{
+    background-color:rgb(220, 100, 10);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    
+}
+.coute1{
+    color: black;
+    margin-bottom: 10px;
+}
+.coute2{
+    color: black;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+/* SERVICE SECTION */
+.services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+   /* height: 450px; */
+   background-image: url(./images/ser.jpeg);
+   background-size: cover;
+   color: rgb(255, 180, 0);
+   background-color: transparent;
+}
+
+.box{
+    width: 300px;
+    height: 350px;
+    text-transform: capitalize;
+    text-align: center;
+    align-content: center;
+    background-color: bisque;
+    margin-left: 2rem;
+    border-radius: 10px;
+    color: black;
+}
+/* animation */
+
+.bike{ width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.bike img{ width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    mix-blend-mode: multiply;
+}
+.box p{
+    font-size: 1.2em;
+}
+.p1{
+    margin-top:10px;}
+
+.burg{ width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+.burg img{ width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        mix-blend-mode: multiply;
+    }
+.dine{ width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    
+    }
+.dine img{ width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        mix-blend-mode: multiply;
+    }
+    /*SECTION 2*/
+    .backf{
+        background-image: url(./images/foodback.jpg);
+        background-size: contain;
+    }
+.section2{
+    text-align: center;
+    color: rgb(255, 180, 0);
+    padding-top: 20px;
+}
+ .section2 h1{
+    color: rgb(255, 180, 0);
+ }   
+ .tagcon{
+    text-transform: capitalize;
+    font-size: 1.2em;
+ }
+ /* SECTION 2 CONTENT */
+ .services2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+    padding: 0 300px;
+    margin-top: 30px;
+ }
+ .square{
+    width: 200px;
+    height: 220px;
+    margin: 9px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 1s ease;
+ }
+ .square:hover{
+    /* background-color: rgb(255, 100, 10); */
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgb(255, 100, 10);
+ }
+ 
+ .square img{
+    width: 140px;
+    height: 120px;
+    position: relative;
+    top: 20px;
+    border-radius:  20px;
+ }
+ .square h2{
+    position: relative;
+    top: 40px;
+    text-transform: capitalize;
+ }
+.menu{
+   padding: 10px 10px;
+ border-radius: 20px;
+ background-color: black;
+ color: orange;
+ font-size: 1.2em;
+ font-weight: bold;
+ border: 2px solid orange;
+ cursor: pointer;
+ box-shadow: 5px 5px 10px orange;
+ transition: all 1.3s ease;
+}
+.menu:hover{
+   /* background-color: orange;
+   color: black; */
+   border: 2px solid black;
+   /* box-shadow: none; */
+   transform: scale(1.2);
+}
+ #aboutUs{
+   font-weight: bolder;
+   text-decoration:underline;
+ }
+ .aboutUs{
+   color: orange;
+text-align: center;
+margin: 50px 60px 0 60px;
+padding-bottom: 50px;
+
+ }
+ /* FOOTER */
+ .footer{
+display: flex;
+justify-content: space-around;
+background-color: orange;
+text-align: center;
+padding: 10px 0px;
+ }
+ .foot-logo img{
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+ }
+ .list li{
+   list-style: none;
+   margin-top: 5px;
+ }
+ .list li a{
+ text-decoration: none;
+ color: black;
+ }
+ .contactUs p {
+   margin-top: 3px;
+ }
